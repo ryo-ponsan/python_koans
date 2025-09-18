@@ -18,5 +18,14 @@
 
 ### 2025-09-01 about_asserts.py（例）
 
-- ポイント: assert の失敗メッセージから「期待/実際」を読み分ける練習。
-- つまずき/境界: True/False の混同。`is` と `==` の違いに注意。
+- ~~ポイント: テスト駆動の型（Red→Green→Refactor）、プロンプトもコードも“テストしやすい粒度”に分解の重要性~~
+- つまずき/境界: pytest の assert と unittest の assert は別物。あまり pytest で得られる知識
+### 2025-09-013 about_none.py
+
+- ~~ポイント: catch attiribute error
+- つまずき/境界: attribute error の理解。クラスの復習しないと
+
+### 2025-09-18 koans/about_true_and_false.py
+
+- falseになる値、リスト、タプル、辞書、集合を思い出した
+- nvimの入力にもっと慣れよう
