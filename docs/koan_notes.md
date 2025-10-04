@@ -70,3 +70,22 @@
    4. データ構造として便利
    決まったデータを安全に扱える、軽量な読み取り専用のデータレコード
 
+# 2025-10-04 about_dicitonaries.py
+
+- 辞書はkey,valueで構成
+- key 複数に対して、value 一つでの書き方も可能（全部同じvalueになる）
+
+
+# 2025-10-04 about_set.py
+- setの良く使うケース
+`emails = ["a@example.com", "b@example.com", "a@example.com"]
+unique_emails = set(emails)`
+- {'a@example.com', 'b@example.com'}
+- 差分や重複を調べる
+- ケース	理由
+- 順序が重要	順番が保証されない
+- 同じ要素を複数保持したい	set は重複を許さない
+- ソート順に意味がある	並び順が崩れる
+
+- 差集合、和集合、積集合、対象差　これは便利そう
+- 割と便利そう、データの差分抽出や、ユニークIDの抽出といった話で
